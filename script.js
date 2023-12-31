@@ -22,7 +22,6 @@ const drawGame = () => {
 
 const showWinner = (userWin) => {
     if(userWin){
-        console.log("you win :)");
         userScore++;
         uscore.innerText = userScore;
         msg.innerText = "You Won :) ";
